@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "WorkerService.NETCore3": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

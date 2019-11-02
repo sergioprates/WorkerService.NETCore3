@@ -1,0 +1,13 @@
+﻿[Unit]
+Description=Meu Servico
+
+[Service]  
+ExecStart=/bin/dotnet/dotnet WorkerService.NETCore3.dll
+WorkingDirectory=/usr/local/services
+User=usuario  
+Group=usuario  
+Restart=on-failure  
+SyslogIdentifier=dotnet-meu-ervicoivateTmp=true  
+
+[Install]  
+WantedBy=multi-user.target 
